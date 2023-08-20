@@ -1,0 +1,155 @@
+.header-area{
+    background-color: #ddd;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    justify-content: space-between;
+}
+.logo h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'JetBrains Mono';
+}
+.header-wrapper a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #302e2e;
+    padding: 10px 16px;
+    font-family: 'JetBrains Mono';
+}
+nav a:hover{
+    background-color: #000;
+    color: #ddd;
+}
+.button button{
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'JetBrains Mono';
+    border: none;
+    background-color: #ddd;
+}
+.button button:hover{
+    background-color: #000;
+    color: #ddd;
+}
+.slider-area{
+    background-image: url(../images/post.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 450px;
+}
+.slider-wrapper{
+    display: flex;
+}
+.slider-text h1{
+    color: #fff;
+    padding: 70px 0 0 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500;
+    font-family:'JetBrains Mono';
+    letter-spacing: 3px;
+}
+.slider-text p{
+    font-size: 18px;
+    color: #fff;
+    padding: 40px 0 0 0;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: 'JetBrains Mono';
+}
+.slider-image img{
+    width: 372px;
+}
+.blog-area{
+    background-color: #ddd;
+    height: 680px;
+}
+.single-blogs{
+    display: flex;
+}
+.blog{
+    width: 23%;
+    margin: 14px;
+}
+.blog-image img{
+    position: relative;
+    left: -4px;
+    bottom: -15px;
+    width: 95%;
+    padding: 4px;
+}
+.blog-text{
+    background-color: #cac8c8;
+    padding: 23px 10px 23px 25px;
+    margin: 0;
+}
+.blog-title h2{
+    margin: 0;
+    text-align: center;
+    padding: 55px 0 25px 0;
+    font-family: 'JetBrains Mono';
+}
+.blog-text h2{
+    font-family: 'JetBrains Mono';
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0;
+}
+.blog-text p{
+    font-family: 'JetBrains Mono';
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0;
+}
+.footer-area1{
+    background-color: #4b4a4a;
+    height: 260px;
+}
+.footer-wrapper1{
+    display: flex;
+    color: #fff;
+}
+.f1-content{
+    width: 25%;
+    padding: 17px 20px 15px 65px;
+}
+.f1-content ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.f1-content ul li a{
+    text-decoration: none;
+    color: #fff;
+} 
+.f1-content h2{
+    font-size: 26px;
+}
+.f1-content p{
+    text-align: left;
+}
+.footer-area2{
+    background-color: #000;
+    height: 50px;
+}
+.footer-wrapper2 p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px 0 10px 0;
+    margin: 0;
+}
